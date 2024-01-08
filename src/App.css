@@ -1,0 +1,9 @@
+#table-search {
+  width: "248px";
+  border: "2px solid #F2F2F2";
+  @media (max-width:768px)
+  {
+    width: "180px";
+    border: "2px solid #F2F2F2";
+  }
+}

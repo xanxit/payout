@@ -1,0 +1,53 @@
+{
+  "listItems":[
+    {
+      "title": "Home",
+      "image": "/images/sidenav/Navbar Icon.svg"
+    },
+    {
+      "title": "Orders",
+      "image": "/images/sidenav/Navbar Icon-1.svg"
+    },
+    {
+      "title": "Products",
+      "image": "/images/sidenav/Navbar Icon-2.svg"
+    },
+    {
+      "title": "Delivery",
+      "image": "/images/sidenav/Navbar Icon-3.svg"
+    },
+    {
+      "title": "Marketing",
+      "image": "/images/sidenav/Navbar Icon-4.svg"
+    },
+    {
+      "title": "Analytics",
+      "image": "/images/sidenav/Navbar Icon-5.svg"
+    },
+    {
+      "title": "Payments",
+      "image": "/images/sidenav/Navbar Icon-6.svg",
+      "isActive": true
+    },
+    {
+      "title": "Tools",
+      "image": "/images/sidenav/Navbar Icon-7.svg"
+    },
+    {
+      "title": "Discounts",
+      "image": "/images/sidenav/Navbar Icon-8.svg"
+    },
+    {
+      "title": "Audience",
+      "image": "/images/sidenav/Navbar Icon-9.svg"
+    },
+    {
+      "title": "Appearance",
+      "image": "/images/sidenav/Navbar Icon-10.svg"
+    },
+    {
+      "title": "Plugins",
+      "image": "/images/sidenav/Navbar Icon-11.svg"
+    }
+  ]
+}
