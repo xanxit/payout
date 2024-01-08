@@ -2,6 +2,7 @@ import SideBar from "./components/Sidebar";
 import Header from "./components/Header";
 import TopNav from "./components/TopNav";
 import BaseTable from "./components/BaseTable";
+import './App.css'
 
 function App() {
   return (

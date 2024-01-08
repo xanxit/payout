@@ -7,3 +7,11 @@
     border: "2px solid #F2F2F2";
   }
 }
+
+#topnav-search {
+  @media (max-width: 768px)
+  {
+    width: '80px' !important;
+  }
+  width: "400px";
+}
