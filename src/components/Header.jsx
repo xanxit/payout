@@ -33,7 +33,7 @@ const Header = () => {
         {HeaderData.headerData.map((data, idx) => (
           <div key={idx} className="bg-white h-32 w-auto shadow-lg rounded p-5">
             <h6 className="text-gray-500 mb-6">{data.title}</h6>
-            <h1 className="text-black text-xl md:text-[32px]">{data.number}</h1>
+            <h1 className="text-black text-xl lg:text-[32px]">{data.number}</h1>
           </div>
         ))}
       </div>
