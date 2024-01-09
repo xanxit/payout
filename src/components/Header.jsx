@@ -31,7 +31,7 @@ const Header = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-8">
         {HeaderData.headerData.map((data, idx) => (
-          <div key={idx} className="bg-white h-32 w-auto shadow-lg rounded p-5">
+          <div key={idx} className="bg-white h-32 w-auto rounded p-5" style={{boxShadow: '0px 2px 6px 0px #1A181E0A'}}>
             <h6 className="text-gray-500 mb-6">{data.title}</h6>
             <h1 className="text-black text-xl lg:text-[32px]">{data.number}</h1>
           </div>
