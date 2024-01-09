@@ -57,12 +57,20 @@ const BaseTable = () => {
                   key={idx}
                   className="bg-white border-b text-left hover:bg-gray-50 "
                 >
-                  <td className="px-6 py-4 whitespace-nowrap">
+                  <td className="px-6 py-4 text-[#146EB4] whitespace-nowrap">
                     {data.orderId}
                   </td>
-                  {<td className="px-6 py-4">{data.orderDate}</td>}
-                  <td className="px-6 py-4 text-right">{data.amount}</td>
-                  <td className="px-6 py-4 text-right">{data.fees}</td>
+                  {
+                    <td className="px-6 py-4 text-[#1A181E]">
+                      {data.orderDate}
+                    </td>
+                  }
+                  <td className="px-6 py-4 text-right text-[#1A181E]">
+                    {data.amount}
+                  </td>
+                  <td className="px-6 py-4 text-right text-[#1A181E]">
+                    {data.fees}
+                  </td>
                 </tr>
               ))}
             </tbody>
